@@ -1,0 +1,20 @@
+{
+    "name": "change-calculator",
+    "version": "0.2.0",
+    "description": "WEB101 Change Calculator",
+    "private": true,
+    "repository": {},
+    "license": "mit",
+    "scripts": {
+        "start": "static -H \"{\\\"Cache-Control\\\": \\\"no-cache, must-revalidate\\\"}\"",
+        "test": "mocha --exit"
+    },
+    "devDependencies": {
+        "axios": "^0.21.4",
+        "chai": "^4.0.2",
+        "express": "^4.15.3",
+        "mocha": "^9.1.1",
+        "nightmare": "^2.8.0",
+        "node-static": "^0.7.9"
+    }
+}

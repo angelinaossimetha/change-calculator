@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Change Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color:#659DBD;">
+  <h1>Change Calculator</h1>
+
+  <section class="center">
+    <div class="element">
+      <label float="left">How much is due for the sale?</label>
+      <input class="set-width" id="amount-due" type="number" min="0"/>
+    </div>
+    <div>
+      <label>How much has the customer given you?</label>
+      <input class="set-width"  id="amount-received" type="number" min="0"/>
+    </div>
+    <section class="center">
+      <div>
+        <button id="calculate-change"  onclick="calculate()" style="height:30px;font-size:14pt;">Calculate</button><br>
+      </div>
+    </section>
+  </section><br>
+
+  <section class="center" text-align="center">
+    <div class="element">
+      <label for="dollars-output">Dollars</label>
+      <p id="dollars-output" class="center element">0</p>
+    </div>
+    <div>
+      <label for="quarters-output">Quarters</label>
+      <p id="quarters-output" class="center element">0</p>
+    </div>
+    <div> 
+      <label for="dimes-output" >Dimes</label>
+      <p id="dimes-output" class="center element">0</p>
+    </div>
+    <div> 
+      <label for="nickels-output">Nickels</label>
+      <p id="nickels-output" class="center element">0</p>
+    </div>
+    <div> 
+      <label for="pennies-output">Pennies</label>
+      <p id="pennies-output" class="center element">0</p>
+    </div>
+  </section>
+
+  <section class="center" text-align="center"> 
+    <img id="dollars-pic" src="dollar.jpg">
+    <img id="quarters-pic" src="quarter.jpg">
+    <img id="dimes-pic" src="dime.jpg">
+    <img id="nickels-pic" src="nickel.jpg">
+    <img id="pennies-pic" src="penny.jpg">
+  </section>
+
+  <script src="main.js" charset="utf-8"></script>
+</body>
+
+</html>
